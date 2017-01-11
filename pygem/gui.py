@@ -8,8 +8,8 @@ try:
 	import tkinter
 	from tkinter.filedialog import askopenfilename
 except:
-	import Tkinter as tkinter
-	from tkFileDialog import askopenfilename
+	import tkinter as tkinter
+	from tkinter.filedialog import askopenfilename
 
 import os
 import webbrowser
